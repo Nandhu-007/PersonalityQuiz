@@ -1,0 +1,60 @@
+
+body {
+  color:white;
+  background: black;
+  font-family:Copperplate, "Copperplate Gothic Light", fantasy;
+  margin: 2em;
+}
+
+p{font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;}
+
+h1 {
+  font-style: italic; 
+  color: #FF3131; 
+  text-shadow:
+            0 0 5px #FF3131, 
+            0 0 7px #FF3131;
+}
+
+h2 {
+  margin-top: 2em; 
+  
+}
+
+
+
+.question {
+  display: flex;
+  justify-content: center; 
+  margin-top: 2em;
+  
+}
+  
+
+.answer-choice {
+  margin: 5px;
+}
+
+
+.answer-choice img {
+  height: 10em;
+}
+
+
+button { 
+  font-family:Copperplate, "Copperplate Gothic Light", fantasy;
+  margin-top: 5px;
+  height:20%;
+  color:white;
+  background-color:rgb(255, 0, 0);
+  
+}
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  
+}
