@@ -22,7 +22,7 @@ var q5a2 = document.getElementById("q5a2");
 
 
 q1a1.addEventListener("click",  () => hero("q1a1", "q1a2"));
-q1a2.addEventListener("click", () => villain("q1a1", "q1a2"));
+q1a2.addEventListener("click", () => villain("q1a2", "q1a2"));
 q2a1.addEventListener("click", () => hero("q2a1", "q2a2"));
 q2a2.addEventListener("click", () => villain("q2a2", "q2a1"));
 q3a1.addEventListener("click", () => hero("q3a1", "q3a2"));
